@@ -80,6 +80,7 @@ export XXH_HOME=`readlink -f $CURRENT_DIR/../../../..`
 export PATH=$CURRENT_DIR/fish-portable/bin:$PATH
 export XDG_CONFIG_HOME=$XXH_HOME/.config
 export XDG_DATA_HOME=$XXH_HOME/.local/share
+export XDG_CACHE_HOME=$XXH_HOME/.cache
 
 if [[ $HOMEPATH != '' ]]; then
   homerealpath=`readlink -f $HOMEPATH`
